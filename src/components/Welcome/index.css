@@ -1,0 +1,40 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  height: 100vh;
+}
+
+.welcome-heading {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  font-size: 60px;
+}
+.welcome-caption {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #1e293b;
+  border-radius: 7px;
+  border: none;
+  font-family: 'Bree Serif';
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+}
